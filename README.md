@@ -15,7 +15,7 @@
 
 ## We moved!
 
-Per 26th Feb 2020, `nuxt-fire` has been renamed and moved to [@nuxtjs/firebase](https://github.com/nuxt-community/firebase-module). At the same time, the module has been upgraded to v4.0.0.\$
+Per 26th Feb 2020, `nuxt-fire` has been renamed and moved to [@nuxtjs/firebase](https://github.com/nuxt-community/firebase-module). At the same time, the module has been upgraded to v4.0.0.
 
 Please uninstall `nuxt-fire` and `install @nuxtjs/firebase` instead.
 
