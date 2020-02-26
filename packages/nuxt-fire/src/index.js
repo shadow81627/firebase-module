@@ -6,6 +6,10 @@ export default function nuxtFire(moduleOptions) {
   const firebaseVersion = '7.7.0' // TODO: Update with each Firebase update
   const currentEnv = getCurrentEnv(options)
 
+  handleWarning(
+    `DeprecationWarning): Per 26th Feb 2020, nuxt-fire has been renamed and moved to @nuxtjs/firebase. At the same time, the module has been upgraded to v4. Please uninstall nuxt-fire and install @nuxtjs/firebase instead. The upgrade to v4 contains small, but BREAKING changes due to the renaming of the module. Go to https://firebase.nuxtjs.org/guide/upgrade/ for a guide on how to upgrade.`
+  )
+
   validateOptions(options)
 
   options.config = getFinalUseConfigObject(options.config, currentEnv)

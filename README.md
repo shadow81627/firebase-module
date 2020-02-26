@@ -13,62 +13,13 @@
 
 📖 [**Read Full Documentation**](https://nuxtfire.netlify.com/)
 
-## Quick Setup
+## We moved!
 
-Install Nuxt-Fire via NPM or Yarn:
+Per 26th Feb 2020, `nuxt-fire` has been renamed and moved to [@nuxtjs/firebase](https://github.com/nuxt-community/firebase-module). At the same time, the module has been upgraded to v4.0.0.\$
 
-```bash
-yarn add nuxt-fire # OR npm i nuxt-fire
-```
+Please uninstall `nuxt-fire` and `install @nuxtjs/firebase` instead.
 
-## Quick Config
-
-Add the following to your nuxt.config.js.
-
-See all configuration options [here](https://nuxtfire.netlify.com/guide/options/).
-
-```js
-modules: [
-    [
-      'nuxt-fire',
-      {
-        config: {
-          apiKey: '<apiKey>',
-          authDomain: '<authDomain>',
-          databaseURL: '<databaseURL>',
-          projectId: '<projectId>',
-          storageBucket: '<storageBucket>',
-          messagingSenderId: '<messagingSenderId>',
-          appId: '<appId>',
-          measurementId: '<measurementId>'
-        },
-        services: {
-          auth: true // Just as example. Can be any other service.
-        }
-      }
-    ]
-  ],
-```
-
-## Quick Usage
-
-Now you can use all Firebase services with `$this.Auth`, `this.$fireStore`, `this.$fireMess` etc. (see list [here](https://nuxtfire.netlify.com/guide/usage/)).
-
-Example:
-
-```js
-try {
-  await this.$fireAuth.createUserWithEmailAndPassword('foo@foo.foo', 'test')
-} catch (e) {
-  handleError(e)
-}
-```
-
-## Advanced Setup
-
-There is much more options to this simple setup, check out our full documentation below:
-
-📖 [**Read Documentation**](https://nuxtfire.netlify.com/)
+The upgrade to v4 contains small, but _breaking_ changes due to the renaming of the module. Go to https://firebase.nuxtjs.org/guide/upgrade/ for a guide on how to upgrade.
 
 ## License
 
