@@ -42,7 +42,7 @@
     "cz-conventional-changelog": "latest",
     "eslint": "latest",
     "firebase": "^7.14.2",
-    "husky": "^4.2.5",
+    "husky": "^8.0.3",
     "jest": "^25.5.4",
     "standard-version": "latest",
     "vuepress": "^1.4.1",
